@@ -1,6 +1,6 @@
 # Installing PowerAI frameworks
 
-1. Set up the software repository, The RPM file was extracted when you ran the PowerAI Enterprise install bin file.
+1. Set up the software repository, the RPM file was extracted when you ran the PowerAI Enterprise install bin file.
 ```
    rpm -ihv mldl-repo-*.rpm  
 ```  
