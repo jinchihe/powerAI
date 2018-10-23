@@ -31,11 +31,13 @@
    (1) Install TensorFlow dependencies.
 ```   
       /opt/DL/tensorflow/bin/install_dependencies -n dli
-```	   
+```
+
    (2)Install TensorBoard dependencies.
 ```   
        /opt/DL/tensorboard/bin/install_dependencies -n dli
 ```
+
    (3) Install PyTorch to its own Anaconda environment. If using a PyTorch framework plugin, PyTorch must be installed to its own Anaconda environment.
 ```  
      conda create --name dli-pytorch --yes pip python=2.7
