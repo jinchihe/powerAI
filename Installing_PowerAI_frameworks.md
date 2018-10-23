@@ -1,10 +1,11 @@
 # Installing PowerAI frameworks
 
-1. Set up the software repository: 
+1. Set up the software repository, The RPM file was extracted when you ran the PowerAI Enterprise install bin file.
 ```
-   rpm -ihv mldl-repo-*.rpm  (The RPM file was extracted when you ran the PowerAI Enterprise install bin file.)
+   rpm -ihv mldl-repo-*.rpm  
 ```  
-2. Install all PowerAI frameworks:
+
+2. Install all PowerAI frameworks.
 ```
    yum install power-mldl
 ```  
