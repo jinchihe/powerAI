@@ -36,7 +36,7 @@
 ```   
        /opt/DL/tensorboard/bin/install_dependencies -n dli
 ```
-   - Install PyTorch to its own Anaconda environment. If using a PyTorch framework plugin, PyTorch must be installed to its own Anaconda environment.
+   - Install PyTorch to its own Anaconda environment.
    
 ```  
      conda create --name dli-pytorch --yes pip python=2.7
@@ -62,7 +62,7 @@
     yum install gcc-c++ gcc-gfortran freetype-devel libpng-devel libffi-devel openssl-devel
 ```
 
-10. Create an Anaconda environment named dlinsights for IBM Spectrum Conductor Deep Learning Impact training insights. 
+10. Create an Anaconda environment named dlinsights for DLI training insights. 
 ```
     conda create --name dlinsights --yes pip python=2.7 
 ```   
